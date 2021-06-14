@@ -29,10 +29,15 @@ Manage the assets and their stock in hospitals: view for one hospital, with supe
 - Run __composer install__
 - Run __php artisan key:generate__
 - Run __php artisan migrate --seed__ (it has some seeded data for your testing)
-- That's it: launch the main URL. 
+- That's it: launch the main URL. __php artisan serve__ 
 - You can login to adminpanel by going go `/login` URL and login with credentials __admin@admin.com__ - __password__
 - For other users, doctors/directors, their email is in `users.email` field, and password is __password__
 
+## Cara Buat Model
+- Buat Model
+ex: __php__ __artisan__ __model:model__ __AssetKategori__ __-m__
+- Buat Table sesuai Model
+ex: __php__ __artisan__ __migrate__
 
 ## License
 
